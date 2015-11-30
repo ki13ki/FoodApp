@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kristhyana.foodapp.Gallery">
+
+    <fragment
+        android:id="@+id/top"
+        android:name="com.kristhyana.foodapp.TopFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <fragment
+        android:id="@+id/mid"
+        android:name="com.kristhyana.foodapp.MiddleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:id="@+id/bottom"
+        android:name="com.kristhyana.foodapp.BottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
